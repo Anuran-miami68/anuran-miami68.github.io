@@ -265,6 +265,22 @@ header h1 span {
             background: #29231d;
             text-align: center;
         }
+        .regional-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.regional-links a {
+    color: #7b5428;
+    text-decoration: none;
+}
+
+.regional-links a:hover {
+    text-decoration: underline;
+}
 .upcoming-book {
     margin-top: 70px;
     padding-top: 55px;
@@ -478,13 +494,19 @@ header h1 span {
             <div class="store-links">
                 <a
                     class="store-button"
-                    href="https://www.amazon.ca/dp/B0HBFCFXXB"
+                    href="https://mybook.to/9e2t"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <span class="store-name">Amazon</span>
-                    <span class="store-format">纸书</span>
+               <span class="store-name">Amazon 全球购买</span>
+                <span class="store-format">选择所在地区</span>
                 </a>
+                <div class="regional-links">
+                    <a href="加拿大链接" target="_blank">加拿大</a>
+                    <a href="美国链接" target="_blank">美国</a>
+                    <a href="英国链接" target="_blank">英国</a>
+                    <a href="澳洲链接" target="_blank">澳洲</a>
+                </div>
 
                 <a
                     class="store-button"
